@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Taiti Oussama</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <i class="fas fa-user-tie"></i> Mon CV
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#apropos">À propos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Expérience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#formation">Formation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- En-tête du CV -->
+        <header class="cv-header text-white text-center py-5">
+            <div class="container">
+                <img src="WhatsApp Image 2025-10-28 at 12.30.02_d60ea595.jpg" alt="Photo" class="rounded-circle mb-3" width="150">
+                <h1 class="display-4 fw-bold">TAITI OUSSAMA</h1>
+                <p class="lead">Développeur Web Full Stack </p>
+                <p class="text-muted">Créer des expériences numériques exceptionnelles</p>
+            </div>
+        </header>
+
+        <!-- Contenu principal -->
+        <main class="py-5">
+            <div class="container">
+                <div class="row">
+                    <!-- Colonne principale -->
+                    <div class="col-lg-8">
+                        <!-- À propos -->
+                        <section id="apropos" class="mb-5">
+                            <h2 class="section-title">
+                                <i class="fas fa-user"></i> À PROPOS
+                            </h2>
+                            <p class="text-justify">Étudiant dynamique et passionné en 2ème année d'Informatique Appliquée (IA) à la Faculté des Sciences Semlalia de Marrakech (FSSM). Fort d'une solide base théorique acquise en première année, je développe actuellement des compétences pratiques en programmation orientée objet (POO), en développement web (HTML/CSS, JavaScript) et en gestion de bases de données (SQL).</p>
+                        </section>
+
+                        <!-- Expérience professionnelle -->
+                        <section id="experience" class="mb-5">
+                            <h2 class="section-title">
+                                <i class="fas fa-briefcase"></i> EXPÉRIENCE PROFESSIONNELLE
+                            </h2>
+                            <div id="experienceList"></div>
+                        </section>
+
+                        <!-- Formation -->
+                        <section id="formation" class="mb-5">
+                            <h2 class="section-title">
+                                <i class="fas fa-graduation-cap"></i> FORMATION
+                            </h2>
+                            <div id="formationList"></div>
+                        </section>
+
+                        <!-- Compétences -->
+                        <section id="competences" class="mb-5">
+                            <h2 class="section-title">
+                                <i class="fas fa-code"></i> COMPÉTENCES TECHNIQUES
+                            </h2>
+                            <div id="skillsList" class="skills-container"></div>
+                        </section>
+
+                        <!-- Projets -->
+                        <section id="projets" class="mb-5">
+                            <h2 class="section-title">
+                                <i class="fas fa-project-diagram"></i> PROJETS
+                            </h2>
+                            <div class="row" id="projectsList"></div>
+                        </section>
+                    </div>
+
+                    <!-- Colonne latérale -->
+                    <div class="col-lg-4">
+                        <!-- Contact -->
+                        <section id="contact" class="card mb-4 shadow-sm">
+                            <div class="card-header bg-primary text-white">
+                                <h5 class="mb-0"><i class="fas fa-phone"></i> CONTACT</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="contact-item mb-3">
+                                    <i class="fas fa-phone text-primary"></i>
+                                    <span>+212 610708866</span>
+                                </div>
+                                <div class="contact-item mb-3">
+                                    <i class="fas fa-envelope text-primary"></i>
+                                    <span>o.taiti7608@uca.ac.ma</span>
+                                </div>
+                                <div class="contact-item mb-3">
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                    <span>Marrakech, Maroc</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-globe text-primary"></i>
+                                    <span>www.taitioussama.com</span>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Réseaux sociaux -->
+                        <section class="card mb-4 shadow-sm">
+                            <div class="card-header bg-info text-white">
+                                <h5 class="mb-0"><i class="fas fa-link"></i> RÉSEAUX SOCIAUX</h5>
+                            </div>
+                            <div class="card-body text-center">
+                                <a href="#" class="btn btn-sm btn-outline-primary me-2 mb-2">
+                                    <i class="fab fa-linkedin"></i> LinkedIn
+                                </a>
+                                <a href="https://github.com/TaitiOussama" class="btn btn-sm btn-outline-danger me-2 mb-2">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                                <a href="#" class="btn btn-sm btn-outline-info mb-2">
+                                    <i class="fab fa-twitter"></i> Twitter
+                                </a>
+                            </div>
+                        </section>
+
+                        <!-- Langues -->
+                        <section class="card mb-4 shadow-sm">
+                            <div class="card-header bg-success text-white">
+                                <h5 class="mb-0"><i class="fas fa-language"></i> LANGUES</h5>
+                            </div>
+                            <div class="card-body" id="languesList"></div>
+                        </section>
+
+                        <!-- Certifications -->
+                        <section class="card shadow-sm">
+                            <div class="card-header bg-warning text-white">
+                                <h5 class="mb-0"><i class="fas fa-certificate"></i> CERTIFICATIONS</h5>
+                            </div>
+                            <div class="card-body" id="certificationsList"></div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-4 mt-5">
+            <div class="container">
+                <p class="mb-0">&copy; 2025 Taiti Oussama. Tous droits réservés.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
